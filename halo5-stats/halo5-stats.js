@@ -26,6 +26,7 @@ if (Meteor.isClient) {
       beforeSend: function(xhrObj){
         // Request headers
         xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key","5b1e6cbbeb624319b76d12ea87090ee7");
+        xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key","5b1e6cbbeb624319b76d12ea87090ee7");
       },
       type: "GET",
       // Request body
