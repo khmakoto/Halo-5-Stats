@@ -3,16 +3,17 @@
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
+  <h1>Welcome to Halo 5 Stats!</h1>
 
-  {{> hello}}
+  {{> playerProfile}}
 </body>
 
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
+<template name="playerProfile">
+  <input id="gamertag" type="text" placeholder="DBCeen" />
+  <button>Search for Gamertag</button>
 
   <div>
   	<img id="emblem" src="" />
+  	<img id="spartanImage" src="" />
   </div>
 </template>
